@@ -1,7 +1,11 @@
-import { Button } from "flowbite-react";
-
+import { defaultHeader } from "@/components/Mainlayout";
 export default function Home() {
   return (
-   <Button>Hello</Button>
+    <>
+    
+    <h2 className="dark:text-white">hello</h2>
+    
+    </>
+
   );
 }
